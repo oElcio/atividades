@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+#div-senha {
+    width: 90%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    background: #242424;
+    border: 2px solid #008d97;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    min-height: 150px;
+}
+
+.tentativa {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tentativa h2 {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.posicaocorreta {
+    background-color: #00cf07;
+    color: #fff;
+    border: 2px solid #00ff08;
+}
+
+.posicaoincorreta {
+    background-color: #d9dd00;
+    color: #333;
+    border: 2px solid #fbff00;
+}
+
+.naoexiste {
+    background-color: #d30000;
+    color: #fff;
+    border: 2px solid #ff0000;
+}
+
+.botao1 {
+    display: flex; 
+    gap: 10px; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.botao1 input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.botao1 input[type="button"] {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#criarsenha {
+    box-shadow: 0px 0px 4px #008d97;
+    transform: scale(1.05);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 200;
+    background-color: #008d97;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#exibirsenha {
+    box-shadow: 0px 0px 4px #008d97;
+    transform: scale(1.05);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 200;
+    background-color: #008d97;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#enviar {
+    box-shadow: 0px 0px 4px #008d97;
+    transform: scale(1.05);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 200;
+    background-color: #008d97;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.botao1 input[type="button"]:hover {
+    opacity: 0.8;
+}
+
+#digitar {
+    background-color: #242424;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px; 
+    padding: 10px; 
+    font-size: 18px;
+    width: 100%; 
+    max-width: 300px; 
+    transition: border-color .2s; 
+}
+
+#digitar:hover {
+    border-color: #008d97;
+}

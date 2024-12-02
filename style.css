@@ -1,0 +1,363 @@
+ /* #Estilo Geral */ 
+ .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+h2.titulo{
+  color: aliceblue;
+  font-size: 38px;
+  text-align: center;
+}
+
+h2.titulo span{
+  color: #f58220;
+}
+
+/* Estilo do cabeçalho */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(111, 111, 111);
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.18);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 45px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600
+
+}
+
+header .btn-contato button{
+    background-color: #f58220;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* ESTILO DO TOPO DO SITE */
+section .topo-do-site{
+  padding: 40px 8%;
+}
+
+section.topo-do-site .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.topo-do-site h1{
+  color: aliceblue;
+  font-size: 40px
+  
+}
+
+.topo-do-site h1 span{
+  color: #f58220;
+}
+
+.topo-do-site p{
+  color: aliceblue;
+  margin: 20px 0;
+}
+
+section .btn-contato button{
+  padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600
+}
+
+section .btn-contato button{
+  background-color: #f58220;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+section .btn-contato button{
+  box-shadow: 0px 0px 8px #f5832078;
+}
+
+section a{
+  color: rgb(111, 111, 111);
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+    border-radius: 30px;
+}
+
+section a:hover{
+  background-color: #f58220;
+  transform: scale(1.18);
+}
+
+/* ESTILOS DE ESPECIALIDADES */
+section.especialidades{
+  padding: 40px 4%;
+  margin: 30px;
+}
+
+section.especialidades .flex{
+  gap: 60px;
+}
+
+.especialidades .especialidades-box{
+  color: aliceblue;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 45px;
+  transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+  transform: scale(1.15);
+  box-shadow: 0 0 20px #008d9784;
+}
+
+.especialidades .especialidades-box i{
+  font-size: 70px;
+  color: #f58320;
+}
+
+.especialidades .especialidades-box h3{
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+section.especialidades .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+/* ESTILO DO SOBRE */
+section.sobre{
+  padding: 40px 4%;
+}
+
+section.sobre .flex{
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre .txt-sobre{
+  color: aliceblue;
+}
+
+.sobre .txt-sobre h2{
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.sobre .txt-sobre h2 span{
+  display: block;
+  color: #f58220;
+}
+
+.sobre .txt-sobre p{
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #f58220;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 1px 1px;
+}
+
+/* ESTILO RODAPÉ */
+
+footer{
+  padding: 30px 4%;
+  box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex{
+  justify-content: space-between;
+}
+
+.interface .btn-social button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #f58220;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 1px 1px;
+}
+
+footer .line-footer{
+  padding: 20px 0;
+}
+
+.borda{
+  border-top: 2px solid #008d97;
+}
+
+footer .line-footer p i{
+  color: #008d97;
+  font-size: 22px;
+}
+
+footer .line-footer p a{
+  color: aliceblue;
+}
+
+
